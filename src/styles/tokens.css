@@ -1,0 +1,20 @@
+:root {
+    --black: #0a0a0a;
+    --ink: #1a1a1a;
+    --charcoal: #2d2d2d;
+    --mid: #6b6b6b;
+    --light: #b0b0b0;
+    --paper: #f5f2ee;
+    --cream: #faf8f4;
+    --white: #ffffff;
+    --accent: #8b1a1a;
+    --accent-light: #c0392b;
+    --rule: #d4cfc8;
+    --serif-display: 'Playfair Display', Georgia, serif;
+    --serif-body: 'Source Serif 4', Georgia, serif;
+    --sans: 'DM Sans', sans-serif;
+  }
+
+:root {
+  --focus: #c0392b;
+}

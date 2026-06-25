@@ -6,28 +6,28 @@ brand
 
 ## Users
 
-Empresarios, directores financieros, representantes legales y contribuyentes con una notificacion fiscal reciente o un caso de alta complejidad frente al SAT. Llegan con presion de tiempo, incertidumbre tecnica y necesidad de criterio juridico claro antes de responder.
+Empresarios, directores financieros, representantes legales y contribuyentes con casos fiscales de alta complejidad, especialmente frente a actuaciones del SAT, materialidad, CFDI, facultades de comprobacion, 69-B CFF y Reforma CFF 2026.
 
 ## Product Purpose
 
-Presentar a Jorge Arias como especialista en defensa fiscal y materialidad probatoria, convertir la urgencia del caso en una solicitud de diagnostico y comunicar que el trabajo se basa en metodo, estrategia y rigor juridico.
+Presentar a Arias Abogados como boutique juridico-fiscal especializada, explicar su metodo de trabajo y dirigir las solicitudes iniciales hacia WhatsApp para agendar una consulta.
 
 ## Brand Personality
 
-Sobria, tecnica y firme. Debe transmitir autoridad sin sonar masiva, urgencia sin alarmismo y cercania profesional sin perder estatura.
+Sobria, tecnica y selectiva.
 
 ## Anti-references
 
-No debe sentirse como despacho generico, plantilla legal comun, pagina saturada de promesas, estetica corporativa fria o landing exagerada de marketing. Evitar testimonios ficticios, decoracion gratuita y mensajes que parezcan garantia de resultado.
+No debe parecer plantilla generica legal, despacho masivo, sitio de promesas faciles, landing con formularios invasivos o pagina dependiente de WordPress.
 
 ## Design Principles
 
-1. La autoridad debe verse antes de explicarse.
-2. La urgencia debe orientar, no asustar.
-3. La especializacion se prueba con estructura y precision.
-4. Cada seccion debe acercar al diagnostico.
-5. El tono debe proteger la confianza profesional del cliente.
+1. Conservar el enfoque premium/legal aprobado.
+2. Profesionalizar la estructura tecnica sin alterar el mensaje visible.
+3. Hacer clara la accion principal: consulta por WhatsApp.
+4. Mantener el sitio estatico, ligero y facil de desplegar.
+5. Documentar el despliegue sin tocar WordPress.
 
 ## Accessibility & Inclusion
 
-Apuntar a una experiencia clara en movil y escritorio, con contraste suficiente, estados interactivos legibles, soporte para reduccion de movimiento y controles comprensibles para usuarios de teclado y lectores de pantalla.
+Estructura semantica, navegacion clara, foco visible, contenido visible si JavaScript falla y respeto a preferencias de reduccion de movimiento.

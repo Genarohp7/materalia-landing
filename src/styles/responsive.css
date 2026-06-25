@@ -1,0 +1,37 @@
+/* RESPONSIVE */
+  @media (max-width: 768px) {
+    .masthead-nav { display: none; }
+    .hero-credentials { grid-template-columns: 1fr 1fr; }
+    .hero-cred { border-right: none; padding: 0; }
+    .hero-cred:nth-child(odd) { border-right: 1px solid #222; padding-right: 1.5rem; }
+    .hero-cred:nth-child(even) { padding-left: 1.5rem; }
+    .declaracion-inner { grid-template-columns: 1fr; gap: 2rem; }
+    .declaracion-divider { display: none; }
+    .boutique-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+    .practica-grid, .practica-row2 { grid-template-columns: 1fr; }
+    .practica-item { border-right: none; border-bottom: 1px solid var(--rule); }
+    .equipo-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+    .equipo-right { border-left: none; border-top: 1px solid #2a2a2a; padding-left: 0; padding-top: 2rem; }
+    .sectores-grid { grid-template-columns: 1fr 1fr; }
+    .sector-item:nth-child(2n) { border-right: none; }
+    .sector-item { border-bottom: 1px solid var(--rule); }
+    .consulta-grid { grid-template-columns: 1fr; }
+    .consulta-card.featured { grid-column: 1; grid-template-columns: 1fr; gap: 2rem; }
+    .featured-right { border-left: none; border-top: 1px solid #2a2a2a; padding-left: 0; padding-top: 2rem; }
+    .faq-grid { grid-template-columns: 1fr; }
+    .cierre-inner { grid-template-columns: 1fr; gap: 3rem; }
+    .cierre-strip { flex-direction: column; gap: 1.5rem; align-items: flex-start; }
+    .strip-right { text-align: left; }
+    .porque-table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .porque-table thead,
+    .porque-table tbody {
+      display: table;
+      min-width: 620px;
+      width: 100%;
+    }
+  }

@@ -1,19 +1,58 @@
-# Materalia Landing
+# Arias Abogados Static Landing
 
-Landing page estatica para presentar el Metodo Materalia y su oferta de diagnostico fiscal.
+Proyecto estatico para la landing principal de Arias Abogados.
 
-## Estructura
+## Tecnologia
 
-- `index.html`: sitio principal listo para GitHub Pages.
-- `PRODUCT.md`: contexto estrategico del proyecto y criterios de diseno.
-- `.github/workflows/pages.yml`: despliegue automatico a GitHub Pages.
+- Vite en modo vanilla.
+- HTML, CSS y JavaScript sin React ni frameworks de UI.
+- Build estatico compatible con hosting compartido.
 
-## Desarrollo local
-
-Abrir `index.html` directamente en el navegador o servir la carpeta con un servidor estatico:
+## Instalar dependencias
 
 ```bash
-python -m http.server 8765
+npm install
 ```
 
-Luego visitar `http://127.0.0.1:8765/`.
+## Correr localmente
+
+```bash
+npm run dev
+```
+
+## Configurar WhatsApp
+
+Editar `src/data/site.config.js`:
+
+- `whatsappNumber`: reemplazar `52XXXXXXXXXX` por el numero real con codigo de pais.
+- `whatsappMessage`: ajustar el mensaje inicial si el cliente lo solicita.
+- `whatsappUrl`: se genera con el numero y mensaje configurados.
+
+## Actualizar enlace externo de Jorge Arias
+
+Editar `externalJorgeAriasUrl` en `src/data/site.config.js`.
+
+## Generar build
+
+```bash
+npm run build
+```
+
+El resultado queda en `dist/`.
+
+## Despliegue
+
+Ver `DEPLOYMENT.md`.
+
+## Editable desde configuracion
+
+- URL principal del sitio.
+- Numero y mensaje de WhatsApp.
+- URL externa de Jorge Arias.
+
+## No tocar
+
+- No agregar credenciales al repositorio.
+- No convertir a WordPress.
+- No borrar carpetas de WordPress en produccion.
+- No modificar el contenido legal o fiscal visible sin aprobacion del cliente.
