@@ -10,6 +10,7 @@
   .masthead-nav a:hover { color: var(--paper); }
   .masthead-cta { font-family: var(--sans); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--paper); border: 1px solid var(--accent); padding: 0.5rem 1.25rem; text-decoration: none; transition: background 0.25s; }
   .masthead-cta:hover { background: var(--accent); }
+  .masthead-menu { display: none; }
 
   /* HERO */
   #hero { background: var(--black); color: var(--paper); padding: 8rem 0 6rem; position: relative; overflow: hidden; }
