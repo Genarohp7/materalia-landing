@@ -21,6 +21,10 @@ h1, h2, h3 {
   text-wrap: balance;
 }
 
+section[id] {
+  scroll-margin-top: 8rem;
+}
+
 p, li {
   text-wrap: pretty;
 }
@@ -35,5 +39,11 @@ p, li {
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 900px) {
+  section[id] {
+    scroll-margin-top: 11rem;
   }
 }

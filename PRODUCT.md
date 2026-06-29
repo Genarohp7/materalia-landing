@@ -10,7 +10,7 @@ Empresarios, directores financieros, representantes legales y contribuyentes con
 
 ## Product Purpose
 
-Presentar a Arias Abogados como boutique juridico-fiscal especializada, explicar su metodo de trabajo y dirigir las solicitudes iniciales hacia WhatsApp para agendar una consulta.
+Presentar a Arias Abogados como boutique juridico-fiscal especializada, explicar su metodo de trabajo y dirigir las solicitudes iniciales hacia un formulario de Mailchimp integrado en la landing.
 
 ## Brand Personality
 
@@ -24,7 +24,7 @@ No debe parecer plantilla generica legal, despacho masivo, sitio de promesas fac
 
 1. Conservar el enfoque premium/legal aprobado.
 2. Profesionalizar la estructura tecnica sin alterar el mensaje visible.
-3. Hacer clara la accion principal: consulta por WhatsApp.
+3. Hacer clara la accion principal: solicitud de consulta mediante formulario.
 4. Mantener el sitio estatico, ligero y facil de desplegar.
 5. Documentar el despliegue sin tocar WordPress.
 

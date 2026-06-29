@@ -172,6 +172,8 @@
     .consulta-grid { grid-template-columns: 1fr; }
     .consulta-card.featured { grid-column: 1; grid-template-columns: 1fr; gap: 2rem; }
     .featured-right { border-left: none; border-top: 1px solid #2a2a2a; padding-left: 0; padding-top: 2rem; }
+    .contact-shell { grid-template-columns: 1fr; gap: 2rem; }
+    .contact-copy { position: static; }
     .faq-grid { grid-template-columns: 1fr; }
     .cierre-inner { grid-template-columns: 1fr; gap: 3rem; }
     .cierre-strip { flex-direction: column; gap: 1.5rem; align-items: flex-start; }
@@ -268,8 +270,28 @@
 
     .practica-item,
     .consulta-card,
-    .sector-item {
+    .sector-item,
+    .arias-contact-form {
       padding: 1.5rem 1.25rem;
+    }
+
+    #consulta.contact-section {
+      padding-top: 4.25rem;
+    }
+
+    .contact-shell {
+      padding-top: 2rem;
+    }
+
+    .form-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    .form-field input,
+    .form-field textarea {
+      font-size: 1rem;
+      padding: 0.9rem 0.95rem;
     }
 
     .proceso-step {

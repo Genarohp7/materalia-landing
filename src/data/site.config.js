@@ -1,11 +1,9 @@
-const whatsappNumber = '52XXXXXXXXXX';
-const whatsappMessage = 'Hola, quiero agendar una consulta inicial con Arias Abogados.';
-
 export const siteConfig = {
   brandName: 'Arias Abogados',
   siteUrl: 'https://ariasabogados.mx/',
-  whatsappNumber,
-  whatsappMessage,
-  whatsappUrl: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`,
+  contactSectionId: 'consulta',
+  contactHref: '#consulta',
+  contactEmail: 'contacto@ariasabogados.mx',
+  mailchimpAction: 'https://ariasabogados.us13.list-manage.com/subscribe/post?u=d4dd807b38b4e68176971fb76&id=8768cdb372&f_id=00c803e9f0',
   externalJorgeAriasUrl: 'https://jossergioj215.sg-host.com',
 };

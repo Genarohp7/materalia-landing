@@ -20,13 +20,23 @@ npm install
 npm run dev
 ```
 
-## Configurar WhatsApp
+## Formulario de contacto
 
-Editar `src/data/site.config.js`:
+La captacion de consultas se hace mediante un formulario de Mailchimp integrado en la seccion `#consulta`.
 
-- `whatsappNumber`: reemplazar `52XXXXXXXXXX` por el numero real con codigo de pais.
-- `whatsappMessage`: ajustar el mensaje inicial si el cliente lo solicita.
-- `whatsappUrl`: se genera con el numero y mensaje configurados.
+- El correo operativo configurado es `contacto@ariasabogados.mx`.
+- Las notificaciones se administran desde Mailchimp, no desde el codigo.
+- El sitio no usa API keys, backend, PHP ni WordPress para enviar el formulario.
+- El envio se hace por `POST` directo al endpoint de Mailchimp y abre la respuesta en una nueva pestana.
+- Para cambiar campos, actualizar primero Mailchimp y despues el HTML con los `name` correspondientes.
+- Para probar recepcion, enviar una prueba desde GitHub Pages o desde `npm run preview` y revisar Mailchimp o `contacto@ariasabogados.mx`.
+
+La configuracion general de contacto vive en `src/data/site.config.js`:
+
+- `contactSectionId`: id de la seccion del formulario.
+- `contactHref`: ancla usada por los botones de contacto.
+- `contactEmail`: correo operativo del cliente.
+- `mailchimpAction`: endpoint funcional del formulario.
 
 ## Actualizar enlace externo de Jorge Arias
 
@@ -47,7 +57,7 @@ Ver `DEPLOYMENT.md`.
 ## Editable desde configuracion
 
 - URL principal del sitio.
-- Numero y mensaje de WhatsApp.
+- Ancla y endpoint del formulario de contacto.
 - URL externa de Jorge Arias.
 
 ## No tocar
