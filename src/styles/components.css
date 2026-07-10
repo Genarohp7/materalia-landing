@@ -196,8 +196,7 @@
   .strip-brand-sub { font-family: var(--sans); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; color: #444; margin-top: 0.2rem; }
   .strip-right { text-align: right; }
   .strip-maxima { font-family: var(--serif-body); font-size: 0.82rem; font-style: italic; color: #444; line-height: 1.5; }
-  .strip-link { font-family: var(--sans); font-size: 0.63rem; letter-spacing: 0.1em; text-transform: uppercase; color: #333; text-decoration: none; display: block; margin-top: 0.5rem; transition: color 0.2s; }
-  .strip-link:hover { color: var(--accent-light); }
+  .strip-profile-text { font-family: var(--sans); font-size: 0.63rem; letter-spacing: 0.1em; text-transform: uppercase; color: #333; margin-top: 0.5rem; }
 
   /* FOOTER */
   footer { background: #050505; padding: 1.75rem 0; border-top: 1px solid #111; }
