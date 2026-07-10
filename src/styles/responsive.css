@@ -419,6 +419,6 @@
     }
 
     .porque-table tbody td:nth-child(3)::before {
-      content: 'Arias Abogados · Materalia';
+      content: 'Arias Abogados · Materialia';
     }
   }
